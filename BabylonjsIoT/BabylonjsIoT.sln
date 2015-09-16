@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabylonjsIoT", "BabylonjsIoT\BabylonjsIoT.csproj", "{A68E45E6-0891-4540-8577-8FDB2DCCAE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdatePowerLines", "UpdatePowerLines\UpdatePowerLines.csproj", "{37489508-82AD-4327-9F73-397C2A39882F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://niclerc.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BabylonjsIoT\\BabylonjsIoT.csproj
+		SccProjectName1 = BabylonjsIoT
+		SccLocalPath1 = BabylonjsIoT
+		SccProjectUniqueName2 = UpdatePowerLines\\UpdatePowerLines.csproj
+		SccProjectName2 = UpdatePowerLines
+		SccLocalPath2 = UpdatePowerLines
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A68E45E6-0891-4540-8577-8FDB2DCCAE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68E45E6-0891-4540-8577-8FDB2DCCAE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68E45E6-0891-4540-8577-8FDB2DCCAE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68E45E6-0891-4540-8577-8FDB2DCCAE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37489508-82AD-4327-9F73-397C2A39882F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37489508-82AD-4327-9F73-397C2A39882F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37489508-82AD-4327-9F73-397C2A39882F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37489508-82AD-4327-9F73-397C2A39882F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="OrleansCityPowerForAzure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WorkerRole name="CityPowerSilo" vmsize="Small">
+    <Endpoints>
+      <InternalEndpoint name="OrleansSiloEndpoint" protocol="tcp" port="11111" />
+      <InternalEndpoint name="OrleansProxyEndpoint" protocol="tcp" port="30000" />
+    </Endpoints>
+    <ConfigurationSettings>
+      <Setting name="DataConnectionString" />
+    </ConfigurationSettings>
+    <LocalResources>
+      <LocalStorage name="LocalStoreDirectory" cleanOnRoleRecycle="false" />
+    </LocalResources>
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+    </Imports>
+  </WorkerRole>
+  <WebRole name="CityPowerWeb" vmsize="Small">
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="Endpoint1" endpointName="Endpoint1" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Endpoints>
+      <InputEndpoint name="Endpoint1" protocol="http" port="80" />
+    </Endpoints>
+    <ConfigurationSettings>
+      <Setting name="DataConnectionString" />
+    </ConfigurationSettings>
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+    </Imports>
+  </WebRole>
+  
+</ServiceDefinition>

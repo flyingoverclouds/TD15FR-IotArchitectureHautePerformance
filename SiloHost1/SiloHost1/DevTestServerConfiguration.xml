@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OrleansConfiguration xmlns="urn:orleans">
+  <Globals>
+    <StorageProviders>
+      <Provider Type="Orleans.Storage.MemoryStorage" Name="PowerStore" />
+      <!-- To use Azure storage, uncomment one of the following lines: -->
+      <!--<Provider Type="Orleans.Storage.AzureTableStorage" Name="AzureStore" DataConnectionString="UseDevelopmentStorage=true" />-->
+      <!--<Provider Type="Orleans.Storage.AzureTableStorage" Name="AzureStore" DataConnectionString="DefaultEndpointsProtocol=https;AccountName=MYACCOUNTNAME;AccountKey=MYACCOUNTKEY" />-->
+      <!--<Provider Type="Orleans.Storage.AzureTableStorage" Name="PowerStore" 
+                DataConnectionString="DefaultEndpointsProtocol=https;AccountName=orleanscitypower;AccountKey=QM9Y8qDFfqxPvOAjzlsMEZpff32Mvf79JKaKXVP/AGEjJsgwpfR0UWDr0Kx01FE7kWPOdv0vu4xn3jeRyOrVMQ==" />-->
+    </StorageProviders>
+    <SeedNode Address="localhost" Port="11111" />
+  </Globals>
+  <Defaults>
+    <Networking Address="localhost" Port="11111" />
+    <ProxyingGateway Address="localhost" Port="30000" />
+    <Tracing DefaultTraceLevel="Error" TraceToConsole="true" TraceToFile="{0}-{1}.log">
+      <TraceLevelOverride LogPrefix="PowerLine" TraceLevel="Info" />
+      <TraceLevelOverride LogPrefix="Apartment" TraceLevel="Info" />
+      <TraceLevelOverride LogPrefix="Building" TraceLevel="Info" />
+    </Tracing>
+    <Statistics MetricsTableWriteInterval="30s" PerfCounterWriteInterval="30s" LogWriteInterval="300s" WriteLogStatisticsToTable="true"/>
+  </Defaults>
+  <Override Node="Primary">
+    <Networking Address="localhost" Port="11111" />
+    <ProxyingGateway Address="localhost" Port="30000" />
+  </Override>
+</OrleansConfiguration>

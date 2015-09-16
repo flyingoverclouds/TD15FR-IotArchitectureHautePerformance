@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloHost1", "SiloHost1\SiloHost1.csproj", "{BEA8C73B-5A2D-48F3-BACD-C1685CDFFE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityPowerInterfaces", "MyGrainInterfaces1\CityPowerInterfaces.csproj", "{11C58CD8-ACAA-4375-A6E5-67681BED8507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityPowerGrains", "GrainCollection1\CityPowerGrains.csproj", "{253CD88A-C35D-4BD3-AE02-F5C3E68FFCDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloClient2", "SiloClient2\SiloClient2.csproj", "{442A5F5B-6623-4ABA-9CC3-F06B0CFEFB13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{63946ECD-4FB6-48CF-9481-BDC8213AC61E}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "OrleansCityPowerForAzure", "OrleansCityPowerForAzure\OrleansCityPowerForAzure.ccproj", "{AC0F8810-39A9-44BF-BBDC-A6FF379EC69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityPowerSilo", "CityPowerSilo\CityPowerSilo.csproj", "{3EE266FD-33B0-4D99-99D8-ABE545FEF89F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityPowerWeb", "CityPowerWeb\CityPowerWeb.csproj", "{13D46ACF-19B7-43C1-AEB9-28F9F7E50097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloObserver1", "SiloObserver1\SiloObserver1.csproj", "{4B2B5D0F-CBE6-496C-AAD0-8628D8D65DDB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://niclerc.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GrainCollection1\\CityPowerGrains.csproj
+		SccProjectName1 = GrainCollection1
+		SccLocalPath1 = GrainCollection1
+		SccProjectUniqueName2 = MyGrainInterfaces1\\CityPowerInterfaces.csproj
+		SccProjectName2 = MyGrainInterfaces1
+		SccLocalPath2 = MyGrainInterfaces1
+		SccProjectUniqueName3 = SiloClient2\\SiloClient2.csproj
+		SccProjectName3 = SiloClient2
+		SccLocalPath3 = SiloClient2
+		SccProjectUniqueName4 = SiloHost1\\SiloHost1.csproj
+		SccProjectName4 = SiloHost1
+		SccLocalPath4 = SiloHost1
+		SccProjectUniqueName5 = OrleansCityPowerForAzure\\OrleansCityPowerForAzure.ccproj
+		SccProjectTopLevelParentUniqueName5 = OrleansCityPower-DEV.sln
+		SccProjectName5 = OrleansCityPowerForAzure
+		SccLocalPath5 = OrleansCityPowerForAzure
+		SccProjectUniqueName6 = CityPowerSilo\\CityPowerSilo.csproj
+		SccProjectTopLevelParentUniqueName6 = OrleansCityPower-DEV.sln
+		SccProjectName6 = CityPowerSilo
+		SccLocalPath6 = CityPowerSilo
+		SccProjectUniqueName7 = CityPowerWeb\\CityPowerWeb.csproj
+		SccProjectTopLevelParentUniqueName7 = OrleansCityPower-DEV.sln
+		SccProjectName7 = CityPowerWeb
+		SccLocalPath7 = CityPowerWeb
+		SccProjectUniqueName8 = SiloObserver1\\SiloObserver1.csproj
+		SccProjectName8 = SiloObserver1
+		SccLocalPath8 = SiloObserver1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA8C73B-5A2D-48F3-BACD-C1685CDFFE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA8C73B-5A2D-48F3-BACD-C1685CDFFE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA8C73B-5A2D-48F3-BACD-C1685CDFFE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA8C73B-5A2D-48F3-BACD-C1685CDFFE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C58CD8-ACAA-4375-A6E5-67681BED8507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C58CD8-ACAA-4375-A6E5-67681BED8507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C58CD8-ACAA-4375-A6E5-67681BED8507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C58CD8-ACAA-4375-A6E5-67681BED8507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253CD88A-C35D-4BD3-AE02-F5C3E68FFCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253CD88A-C35D-4BD3-AE02-F5C3E68FFCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253CD88A-C35D-4BD3-AE02-F5C3E68FFCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253CD88A-C35D-4BD3-AE02-F5C3E68FFCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442A5F5B-6623-4ABA-9CC3-F06B0CFEFB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442A5F5B-6623-4ABA-9CC3-F06B0CFEFB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442A5F5B-6623-4ABA-9CC3-F06B0CFEFB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442A5F5B-6623-4ABA-9CC3-F06B0CFEFB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0F8810-39A9-44BF-BBDC-A6FF379EC69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0F8810-39A9-44BF-BBDC-A6FF379EC69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0F8810-39A9-44BF-BBDC-A6FF379EC69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0F8810-39A9-44BF-BBDC-A6FF379EC69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE266FD-33B0-4D99-99D8-ABE545FEF89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE266FD-33B0-4D99-99D8-ABE545FEF89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE266FD-33B0-4D99-99D8-ABE545FEF89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE266FD-33B0-4D99-99D8-ABE545FEF89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D46ACF-19B7-43C1-AEB9-28F9F7E50097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D46ACF-19B7-43C1-AEB9-28F9F7E50097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D46ACF-19B7-43C1-AEB9-28F9F7E50097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D46ACF-19B7-43C1-AEB9-28F9F7E50097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2B5D0F-CBE6-496C-AAD0-8628D8D65DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2B5D0F-CBE6-496C-AAD0-8628D8D65DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2B5D0F-CBE6-496C-AAD0-8628D8D65DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2B5D0F-CBE6-496C-AAD0-8628D8D65DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC0F8810-39A9-44BF-BBDC-A6FF379EC69D} = {63946ECD-4FB6-48CF-9481-BDC8213AC61E}
+		{3EE266FD-33B0-4D99-99D8-ABE545FEF89F} = {63946ECD-4FB6-48CF-9481-BDC8213AC61E}
+		{13D46ACF-19B7-43C1-AEB9-28F9F7E50097} = {63946ECD-4FB6-48CF-9481-BDC8213AC61E}
+	EndGlobalSection
+EndGlobal
